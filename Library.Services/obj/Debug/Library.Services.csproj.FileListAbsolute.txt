@@ -1,0 +1,12 @@
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\bin\Debug\Library.Services.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\bin\Debug\Library.Services.pdb
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\bin\Debug\Library.DataAccess.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\bin\Debug\Microsoft.Analytics.Interfaces.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\bin\Debug\Microsoft.Analytics.Types.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\bin\Debug\Library.DataAccess.pdb
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\obj\Debug\Library.Services.csproj.AssemblyReference.cache
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\obj\Debug\Library.Services.csproj.CoreCompileInputs.cache
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\obj\Debug\Library.Services.csproj.CopyComplete
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\obj\Debug\Library.Services.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.Services\obj\Debug\Library.Services.pdb

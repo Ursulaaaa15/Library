@@ -4,6 +4,21 @@
     "E:\\прога\\3 курс\\MS.NET\\test\\Library\\Library.WebAPI\\Library.WebAPI.csproj": {}
   },
   "projects": {
+    "E:\\прога\\3 курс\\MS.NET\\test\\Library\\Library.BL\\Library.BL.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\прога\\3 курс\\MS.NET\\test\\Library\\Library.BL\\Library.BL.csproj",
+        "projectName": "Library.BL",
+        "projectPath": "E:\\прога\\3 курс\\MS.NET\\test\\Library\\Library.BL\\Library.BL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "E:\\прога\\3 курс\\MS.NET\\test\\Library\\Library.WebAPI\\Library.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -33,8 +48,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\прога\\3 курс\\MS.NET\\test\\Library\\FitnessClub.BL\\FitnessClub.BL.csproj": {
-                "projectPath": "E:\\прога\\3 курс\\MS.NET\\test\\Library\\FitnessClub.BL\\FitnessClub.BL.csproj"
+              "E:\\прога\\3 курс\\MS.NET\\test\\Library\\Library.BL\\Library.BL.csproj": {
+                "projectPath": "E:\\прога\\3 курс\\MS.NET\\test\\Library\\Library.BL\\Library.BL.csproj"
               }
             }
           }

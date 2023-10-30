@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-	<ProjectReference Include="..\FitnessClub.BL\FitnessClub.BL.csproj" />
+	<ProjectReference Include="..\Library.BL\Library.BL.csproj" />
   </ItemGroup>
 	
 </Project>

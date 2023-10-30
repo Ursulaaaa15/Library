@@ -1,6 +1,6 @@
 ﻿namespace Library.WebAPI.Settings
 {
-    public class FitnessClubSettings
+    public class LibrarySettings
     {
         
     }

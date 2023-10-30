@@ -1,0 +1,10 @@
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\bin\Debug\Library.DataAccess.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\bin\Debug\Library.DataAccess.pdb
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\bin\Debug\Microsoft.Analytics.Interfaces.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\bin\Debug\Microsoft.Analytics.Types.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\obj\Debug\Library.DataAccess.csproj.AssemblyReference.cache
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\obj\Debug\Library.DataAccess.csproj.CoreCompileInputs.cache
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\obj\Debug\Library.DataAccess.csproj.CopyComplete
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\obj\Debug\Library.DataAccess.dll
+E:\прога\3 курс\MS.NET\test\Library\Library.DataAccess\obj\Debug\Library.DataAccess.pdb

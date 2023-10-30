@@ -5,7 +5,7 @@ var configuration = new ConfigurationBuilder()
 .AddJsonFile("appsettings.json", optional: false)
 .Build();
 
-var settings = FitnessClubSettingsReader.Read(configuration);
+var settings = LibrarySettingsReader.Read(configuration);
 
 var builder = WebApplication.CreateBuilder(args);
 

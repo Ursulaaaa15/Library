@@ -1,11 +1,11 @@
 ﻿namespace Library.WebAPI.Settings
 {
-    public static class FitnessClubSettingsReader
+    public static class LibrarySettingsReader
     {
-        public static FitnessClubSettings Read(IConfiguration configuration)
+        public static LibrarySettings Read(IConfiguration configuration)
         {
           
-            return new FitnessClubSettings();
+            return new LibrarySettings();
         }
     }
 }

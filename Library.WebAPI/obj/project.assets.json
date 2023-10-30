@@ -652,6 +652,15 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Library.BL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Library.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.BL.dll": {}
+        }
       }
     }
   },
@@ -1798,11 +1807,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Library.BL/1.0.0": {
+      "type": "project",
+      "path": "../Library.BL/Library.BL.csproj",
+      "msbuildProject": "../Library.BL/Library.BL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "E:\\прога\\3 курс\\MS.NET\\test\\Library\\FitnessClub.BL\\FitnessClub.BL.csproj",
+      "Library.BL >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.11",
       "Serilog >= 3.0.1",
       "Serilog.AspNetCore >= 7.0.0",
@@ -1845,8 +1859,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\прога\\3 курс\\MS.NET\\test\\Library\\FitnessClub.BL\\FitnessClub.BL.csproj": {
-              "projectPath": "E:\\прога\\3 курс\\MS.NET\\test\\Library\\FitnessClub.BL\\FitnessClub.BL.csproj"
+            "E:\\прога\\3 курс\\MS.NET\\test\\Library\\Library.BL\\Library.BL.csproj": {
+              "projectPath": "E:\\прога\\3 курс\\MS.NET\\test\\Library\\Library.BL\\Library.BL.csproj"
             }
           }
         }
@@ -1912,16 +1926,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Не удалось найти проект \"E:\\прога\\3 курс\\MS.NET\\test\\Library\\FitnessClub.BL\\FitnessClub.BL.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
-      "libraryId": "E:\\прога\\3 курс\\MS.NET\\test\\Library\\FitnessClub.BL\\FitnessClub.BL.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }
