@@ -8,9 +8,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.WebAPI", "Library.W
 		{7F7B730A-3494-4665-AEC0-AF14B7D3D25B} = {7F7B730A-3494-4665-AEC0-AF14B7D3D25B}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.BL", "Library.BL\Library.BL.csproj", "{7F7B730A-3494-4665-AEC0-AF14B7D3D25B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.BL", "Library.BL\Library.BL.csproj", "{7F7B730A-3494-4665-AEC0-AF14B7D3D25B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CDE4D80-0A9F-4496-842E-A891830079EE} = {0CDE4D80-0A9F-4496-842E-A891830079EE}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.DataAccess", "Library.DataAccess\Library.DataAccess.csproj", "{0CDE4D80-0A9F-4496-842E-A891830079EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.DataAccess", "Library.DataAccess\Library.DataAccess.csproj", "{0CDE4D80-0A9F-4496-842E-A891830079EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
