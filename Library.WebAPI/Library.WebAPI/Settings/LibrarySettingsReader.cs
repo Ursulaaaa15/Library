@@ -5,7 +5,10 @@
         public static LibrarySettings Read(IConfiguration configuration)
         {
           
-            return new LibrarySettings();
+            return new LibrarySettings()
+            {
+                LibraryDbContextConnectionString = configuration.GetValue<string>("LibraryDbContext")
+            };
         }
     }
 }

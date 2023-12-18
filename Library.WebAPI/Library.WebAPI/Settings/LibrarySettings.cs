@@ -2,6 +2,7 @@
 {
     public class LibrarySettings
     {
-        
+        public string LibraryDbContextConnectionString { get; set; }
+
     }
 }
