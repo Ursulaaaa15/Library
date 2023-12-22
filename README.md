@@ -25,5 +25,6 @@
    	5.4. У админа есть:
    		5.4.1. Email
    		5.4.2. Пароль и логин   
-![image](https://github.com/Ursulaaaa15/Library/assets/128168213/a5eb0e22-a228-49ea-9363-a2e0bf066930)
+![image](https://github.com/Ursulaaaa15/Library/assets/128168213/a2c7b3bb-8602-4bc9-a21a-80c8d8e01336)
+
 
