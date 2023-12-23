@@ -6,6 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="3.1.15" />
+	</ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Library.DataAccess\Library.DataAccess.csproj" />
   </ItemGroup>

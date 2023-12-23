@@ -8,6 +8,8 @@ namespace Library.DataAccess.Entities
         public string Title { get; set; } //название библиотеки
         public string Address { get; set; } //адрес
 
+        public string BuildingHistory { get; set; }
+
         public virtual ICollection<UserEntity> Users { get; set; }
     }
 }

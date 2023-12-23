@@ -1,9 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Library.DataAccess.Entities
+namespace Library.BL.Books.Entities
 {
-    [Table("books")]
-    public class BookEntity : BaseEntity
+    public class UpdateBookModel
     {
         public string Title { get; set; }
 
@@ -13,8 +16,5 @@ namespace Library.DataAccess.Entities
         public string SimilarWorks { get; set; }
 
         public DateTime PublicationYear { get; set; }
-
-        public int TakeBookId { get; set; }
-        public TakeBookEntity TakeBook { get; set; }
     }
 }

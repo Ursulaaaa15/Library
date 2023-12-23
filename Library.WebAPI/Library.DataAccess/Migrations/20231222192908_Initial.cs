@@ -37,6 +37,7 @@ namespace Library.DataAccess.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BuildingHistory = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ExternalId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     ModificationTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CreationTime = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -52,8 +53,7 @@ namespace Library.DataAccess.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Refund = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Overdue = table.Column<bool>(type: "bit", nullable: false),
+                    Taken = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ExternalId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     ModificationTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CreationTime = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -72,6 +72,8 @@ namespace Library.DataAccess.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Autor = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Genre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Plot = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    SimilarWorks = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PublicationYear = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TakeBookId = table.Column<int>(type: "int", nullable: false),
                     ExternalId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
@@ -99,6 +101,7 @@ namespace Library.DataAccess.Migrations
                     SecondName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Patronymic = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ReadingNumber = table.Column<int>(type: "int", nullable: false),
                     Birthday = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Login = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: false),

@@ -1,20 +1,24 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Library.DataAccess.Entities;
+using System.ComponentModel.DataAnnotations;
 
-namespace Library.DataAccess.Entities
+namespace Library.WebAPI.Controllers.Entities.Books
 {
-    [Table("books")]
-    public class BookEntity : BaseEntity
+    public class CreateBookRequest
     {
+        [Required]
         public string Title { get; set; }
-
+        [Required]
         public string Autor { get; set; }
+        [Required]
         public string Genre { get; set; }
+        [Required]
         public string Plot { get; set; }
+        [Required]
         public string SimilarWorks { get; set; }
+
 
         public DateTime PublicationYear { get; set; }
 
         public int TakeBookId { get; set; }
-        public TakeBookEntity TakeBook { get; set; }
     }
 }

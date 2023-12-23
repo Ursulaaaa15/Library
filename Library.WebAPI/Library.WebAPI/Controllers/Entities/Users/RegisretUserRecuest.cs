@@ -1,9 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Library.DataAccess.Entities;
 
-namespace Library.DataAccess.Entities
+namespace Library.WebAPI.Controllers.Entities.Users
 {
-    [Table("users")]
-    public class UserEntity : BaseEntity
+    public class RegisretUserRecuest
     {
         public string FirstName { get; set; }
         public string SecondName { get; set; }
@@ -14,14 +13,10 @@ namespace Library.DataAccess.Entities
 
         public DateTime Birthday { get; set; }
         public string Login { get; set; }
-        public string PasswordHash { get; set; }
+        public string Password { get; set; }
 
         public int LibraryId { get; set; }
-        public LibraryEntity Library { get; set; }
 
         public int TakeBookId { get; set; }
-        public TakeBookEntity TakeBook { get; set; }
-
-
     }
 }

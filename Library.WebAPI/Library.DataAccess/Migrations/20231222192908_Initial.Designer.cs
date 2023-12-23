@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Library.DataAccess.Migrations
 {
     [DbContext(typeof(LibraryDbContext))]
-    [Migration("20231218031304_Initial")]
+    [Migration("20231222192908_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -87,8 +87,16 @@ namespace Library.DataAccess.Migrations
                     b.Property<DateTime>("ModificationTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Plot")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("PublicationYear")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("SimilarWorks")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TakeBookId")
                         .HasColumnType("int");
@@ -116,6 +124,10 @@ namespace Library.DataAccess.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BuildingHistory")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -157,10 +169,7 @@ namespace Library.DataAccess.Migrations
                     b.Property<DateTime>("ModificationTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<bool>("Overdue")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime>("Refund")
+                    b.Property<DateTime>("Taken")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
@@ -213,6 +222,9 @@ namespace Library.DataAccess.Migrations
                     b.Property<string>("Patronymic")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ReadingNumber")
+                        .HasColumnType("int");
 
                     b.Property<string>("SecondName")
                         .IsRequired()

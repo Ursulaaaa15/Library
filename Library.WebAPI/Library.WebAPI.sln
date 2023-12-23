@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.BL", "Library.BL\Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.DataAccess", "Library.DataAccess\Library.DataAccess.csproj", "{0CDE4D80-0A9F-4496-842E-A891830079EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{971B17BF-00D7-4780-AFDF-CED5388A1978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.UnitTests", "Library.UnitTests\Library.UnitTests.csproj", "{E4399862-0F17-4944-85A8-065C24337AF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +37,16 @@ Global
 		{0CDE4D80-0A9F-4496-842E-A891830079EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CDE4D80-0A9F-4496-842E-A891830079EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CDE4D80-0A9F-4496-842E-A891830079EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4399862-0F17-4944-85A8-065C24337AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4399862-0F17-4944-85A8-065C24337AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4399862-0F17-4944-85A8-065C24337AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4399862-0F17-4944-85A8-065C24337AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4399862-0F17-4944-85A8-065C24337AF4} = {971B17BF-00D7-4780-AFDF-CED5388A1978}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {407F7423-F417-4F06-B512-9307B440BEC6}
